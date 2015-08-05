@@ -9,4 +9,13 @@ class ApplicationController < ActionController::Base
 	def hello
 		render text: "hello world"
 	end
+
+	def hola
+		render text: 'holis'
+	end
+	
+	def goodbye
+		render text: 'goodbye'
+	end
+
 end
